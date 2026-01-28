@@ -1,0 +1,33 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.71:3000
+
+✓ Starting...
+✓ Ready in 318ms
+ HEAD / 200 in 1909ms (compile: 1845ms, render: 64ms)
+ GET / 200 in 22ms (compile: 1630µs, render: 20ms)
+ GET / 200 in 18ms (compile: 3ms, render: 16ms)
+ GET / 200 in 16ms (compile: 1428µs, render: 14ms)
+ GET / 200 in 21ms (compile: 2ms, render: 19ms)
+ GET / 200 in 21ms (compile: 2ms, render: 19ms)
+ GET / 200 in 17ms (compile: 1176µs, render: 16ms)
+ GET / 200 in 16ms (compile: 1369µs, render: 14ms)
+ POST /api/parse 404 in 247ms (compile: 218ms, render: 29ms)
+ GET / 200 in 21ms (compile: 3ms, render: 18ms)
+✓ Compiled in 52ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+✓ Compiled in 48ms
+ GET / 200 in 74ms (compile: 28ms, render: 46ms)
+ GET / 200 in 15ms (compile: 1828µs, render: 13ms)
+ GET / 200 in 16ms (compile: 1322µs, render: 15ms)
+✓ Compiled in 31ms
+✓ Compiled in 39ms
+✓ Compiled in 34ms
+ GET / 200 in 71ms (compile: 26ms, render: 45ms)
+ GET / 200 in 15ms (compile: 1242µs, render: 13ms)
+ GET / 200 in 19ms (compile: 1515µs, render: 18ms)
+[?25h

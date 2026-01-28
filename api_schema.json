@@ -1,0 +1,48 @@
+{
+  "properties": {
+    "product_name": {
+      "type": "string",
+      "description": "The full name of the product"
+    },
+    "price": {
+      "type": "string",
+      "description": "The price of the product, including currency symbol if present"
+    },
+    "color": {
+      "type": "string",
+      "description": "The primary color of the product"
+    },
+    "material": {
+      "type": "string",
+      "description": "The main material composition"
+    },
+    "size": {
+      "type": "string",
+      "description": "The size or dimensions of the product"
+    },
+    "features": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "A list of key features or highlights of the product"
+    },
+    "category": {
+      "type": "string",
+      "description": "The main category of the product"
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "The specific subcategory"
+    },
+    "brand": {
+      "type": "string",
+      "description": "The brand manufacturer"
+    }
+  },
+  "inference_rules": [
+    "Extract brand names exactly as they appear.",
+    "Categorize items based on standard e-commerce categories.",
+    "Extract price with currency symbol.",
+    "Identify key features that describe the product's unique selling points.",
+    "Extract a concise, canonical product name (e.g., 'Pi Pico Microcontroller' instead of 'Raspberry Pi Pico with a magenta case')."
+  ]
+}

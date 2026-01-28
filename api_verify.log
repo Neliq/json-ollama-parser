@@ -1,0 +1,25 @@
+INFO:     Started server process [7908]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Parsing description: red toy ferrari...
+Error communicating with Ollama: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+Error parsing: 500: Failed to parse description
+INFO:     127.0.0.1:40114 - "POST /parse HTTP/1.1" 500 Internal Server Error
+/home/neliq/Coding/json-ollama-parser/api.py:48: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/home/neliq/Coding/json-ollama-parser/api.py:48: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+/home/neliq/Coding/json-ollama-parser/api.py:48: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  with DDGS() as ddgs:
+Parsing description: red toy ferrari...
+Image search attempt 1 failed: https://duckduckgo.com/i.js?o=json&q=red+toy+Ferrari&l=us-en&vqd=4-61752831844366668222984372915009771507&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+Image search attempt 2 failed: https://duckduckgo.com/i.js?o=json&q=red+toy+Ferrari&l=us-en&vqd=4-61752831844366668222984372915009771507&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+Image search attempt 3 failed: https://duckduckgo.com/i.js?o=json&q=red+toy+Ferrari&l=us-en&vqd=4-61752831844366668222984372915009771507&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+Image search failed after retries: https://duckduckgo.com/i.js?o=json&q=red+toy+Ferrari&l=us-en&vqd=4-61752831844366668222984372915009771507&p=1&f=%2C%2C%2C%2C%2C 403 Ratelimit
+INFO:     127.0.0.1:46634 - "POST /parse HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7908]
+<sys>:0: ResourceWarning: unclosed <socket.socket fd=8, family=2, type=1, proto=6, laddr=('127.0.0.1', 54072), raddr=('127.0.0.1', 11434)>

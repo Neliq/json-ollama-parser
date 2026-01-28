@@ -5,7 +5,7 @@ import sys
 import difflib
 
 
-MODEL_NAME = "mistral-nemo"
+MODEL_NAME = "mistral"
 SCHEMA_FILE = "schema.json"
 
 def load_schema(filepath):
@@ -116,7 +116,7 @@ def validate_and_normalize(result, schema):
                 matches = difflib.get_close_matches(v, valid_values, n=1, cutoff=0.6)
                 if matches:
                     return matches[0]
-                return None # No match found
+                return v # Return original value if no match found (soft validation)
             
             # Handle list vs string
             if isinstance(value, list):

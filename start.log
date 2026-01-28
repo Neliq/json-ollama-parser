@@ -1,0 +1,27 @@
+nohup: ignoring input
+Starting AI Product Parser Stack...
+Ollama is already running.
+Starting Backend (FastAPI)...
+Backend running (PID: 16624), logs in api.log
+Starting Frontend (Next.js)...
+Frontend running (PID: 16625)
+------------------------------------------------
+Full stack is running!
+Backend: http://localhost:8000
+Frontend: http://localhost:3000
+Press Ctrl+C to stop everything.
+------------------------------------------------
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.71:3000
+
+✓ Starting...
+✓ Ready in 341ms
+ GET / 200 in 1029ms (compile: 920ms, render: 109ms)
+ GET / 200 in 32ms (compile: 1743µs, render: 30ms)
+Stopping all services...
+[?25h
