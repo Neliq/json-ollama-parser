@@ -1,5 +1,8 @@
 # Ollama JSON Parser: AI Product Description Extractor
 
+Presentation link:
+https://www.canva.com/design/DAG_tAW0Amw/HPwtHDKk_0igXFkAbTxIFQ/view?utm_content=DAG_tAW0Amw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h17da6eab0e
+
 A robust, local AI tool that parses plain text product descriptions into structured JSON data. Optimized for **12GB VRAM** using `mistral-nemo` (12B) and a **Hybrid Prompting** architecture.
 
 ## 🚀 Features
